@@ -14,3 +14,15 @@ $ go run server.go
 ```
 
 .devcontainerのdocker-compose.ymlにポート定義あるが、現時点では localhost:18080 をたたけばいい
+
+### air導入
+
+```bash
+go install github.com/cosmtrek/air@latest
+```
+
+```bash
+air
+```
+
+
